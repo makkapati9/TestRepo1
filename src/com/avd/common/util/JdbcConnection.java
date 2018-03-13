@@ -67,7 +67,7 @@ public class JdbcConnection {
 			 */
 
 			System.out.println(" This is jdbc file  for tesing");
-			System.out.println(" This is jdbc file manish commited ");
+			System.out.println(" This is jdbc  file manish commited ");
 
 			url="jdbc:mysql://localhost/test";
 		 	user="root"; 
