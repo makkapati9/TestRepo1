@@ -1,0 +1,1378 @@
+/* CSS Code by Shashank */
+
+/* set all the styles to 0 */
+html, body, table, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, a {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+/* Firefox will always display a scroll bar */
+html {
+	min-height: 100%;
+	margin-bottom: 1px;
+}
+html {
+	height:100%;
+}
+/* png */
+* html img, * html .png {
+	position:relative;/*behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "images/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("', '').replace('")', ''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")), this.pngSet=true) );*/
+}
+/* remember to define focus styles! */
+:focus {
+	outline:0px;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+	height:auto;
+	
+}
+a {
+	cursor: pointer;
+	outline:none;
+	color:#0189d5;
+	text-decoration:none;
+}
+a:hover {text-decoration:underline;}
+img {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    outline: none;
+    vertical-align: middle;
+}
+p {
+	padding:3px 0px;
+	margin:0px;
+}
+h1 {
+	font-family:arial, verdana;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+}
+object {
+	border:0px;
+	outline:none;
+}
+.clear {
+	clear:both;
+}
+.container {
+	width:1000px;
+	height:auto;
+	margin:auto;
+	padding:0px;
+}
+.headerWrapper {
+	width:100%;
+	margin:0px;
+	padding: 0px;
+	float:left;
+	height:auto;
+	color:#fff;
+	font-size:12px;
+	/*background:#282828;*/
+	background:url(../imagesDashBoard/headerBg.jpg) repeat-x left top #020202;
+}
+.header {
+	width:980px;
+	margin:auto;
+	padding: 0px 5px;
+	/*float:left;*/
+	height:auto;
+	color:#fff;
+	font-size:12px;
+}
+.header .leftNav {
+	width:570px;
+	float:left;
+	height:auto;
+	margin:0px;
+	position:relative;
+	z-index:9999;
+	padding-top:10px;
+	text-align:left;
+}
+.header .rightNav {
+	/*width:285px;*/
+	width:auto;
+	float:left;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	text-align:right;
+	position:relative;
+	color:#333;
+}
+.header .rightNav ul {
+	float:right;
+	padding:0px;
+}
+.header .rightNav ul li {
+	float:left;
+	list-style:none;
+	border-left:1px solid #5a5a5a;/*border-right:1px solid #5a5a5a;*/
+}
+.header .rightNav ul li a {
+	color:#fff;
+	text-decoration:none;
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:16px;
+	display:block;
+	margin:0px;
+	padding:10px;
+}
+.header .rightNav ul li a:hover {
+	text-decoration:underline;
+}
+.whiteWrapper {
+	float:left;
+	width:100%;
+	/*
+	Change on 03-06 by Shashank suggested by Team
+	background:#fff;*/
+	background:#DEDFDF;
+	height:auto;
+	padding-bottom:10px;
+}
+.contentPan {
+	width:1000px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:auto;
+	color:#3e3e3e;
+	font-size:12px;
+	/*
+	Change on 03-06 by Shashank suggested by Team*/
+	background:#fff;
+}
+/* For Dashboard Header Section starts */
+.dashHeadPan {
+	width:980px;
+	margin:10px;
+	padding:0px;
+	float:left;
+	height:auto;
+}
+.leftPanDashHead {
+	width:720px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.rightPanDashHead {
+	width:250px;
+	height:auto;
+	margin:0px 0px 0px 10px;
+	padding-bottom:10px;
+	float:left;
+	background:#f3f3f3;
+}
+h1.userName {
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	/*font-size:18px;
+	background:#0580c4;*/
+	font-size:16px;
+	color:#fff;
+	display:block;
+	padding:5px;
+	font-weight:normal;
+	background:#0B3684;
+}
+span.userDetails {
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:14px;
+	color:#333;
+	display:block;
+	/* padding:5px;
+	changed to below by Shashank
+	*/
+	padding:0px 5px;
+}
+a.userLinks {
+	color:#0580c4;
+	text-decoration:none;
+	font-size:12px;
+	/*margin-left:5px;*/
+}
+a.userLinks:hover {
+	text-decoration:underline;
+}
+a.selctedLink {
+	color:#7e343c;
+	text-decoration:underline;
+	font-size:12px;
+	/*margin-left:5px;*/
+}
+a.selctedLink:hover {
+	text-decoration:none;
+}
+.marginLeft5 {margin-left:5px;}
+.marginLeft10 {margin-left:10px;}
+/* For Dashboard Header Section ends */
+/* For Dashboard Head Title Section starts */
+.dashHeadTitlePan {
+	width:980px;
+	margin:0px 10px;
+	padding:0px;
+	float:left;
+	height:auto;
+}
+h2.dashTitle {
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:24px;
+	display:block;
+	padding:5px;
+	font-weight:normal;
+	color:#0580c4;
+	text-align:left;
+}
+/* For Dashboard GRID Section starts */
+.dashGridPan {
+	width:965px;
+	margin:0px 10px;
+	padding:5px 5px 5px 10px;
+	float:left;
+	height:auto;
+	background:#f1f1f1;
+}
+.dashGridPan ul li {
+	float:left;
+	list-style:none;
+	width:184px;
+	height:76px;
+	background:#fff;
+	font-size:14px;
+	color:#333;
+	text-align:center;
+}
+.marginRht10 {
+	margin-right:10px;
+}
+span.gridBdr {
+	float:left;
+	background:url(../imagesDashBoard/dashGridBdr.jpg) repeat-x left top;
+	width:960px;
+	height:2px;
+	margin:2px 0px 0px 0px;
+}
+.newsPanDash {
+	background:#fff;
+	float:left;
+	height:auto;
+	padding:10px 0px;
+	width:980px;
+	margin:10px 10px 5px 10px;
+	color:#11153d;
+	border-bottom:1px solid #11153d;
+	text-align:center;
+}
+.newsPanDash .newsText {
+	font-size:14px;
+	display:block;
+	margin-bottom:5px;
+}
+/* For Dashboard GRID Section ends */
+/* Footer starts */
+a.navBottom {
+	color:#151515;
+	text-decoration:none;
+}
+a.navBottom:hover {
+	color:#484848;
+}
+a.copyright {
+	color:#777777;
+	text-decoration:none;
+}
+a.copyright:hover {
+	color:#151515;
+}
+.footerWrapper {
+	width:100%;
+	height:auto;
+	background:#dedfdf;
+	float:left;
+	margin-top:10px;
+}
+.footerPan {
+	width:980px;
+	padding:0px 10px;
+	margin:auto;/*float:left;*/
+}
+.footerLeftPan {
+	width:490px;
+	float:left;
+	height:auto;
+	margin:0px;
+	padding:5px 0px;
+	color:#151515;
+}
+.footerRightPan {
+	width:490px;
+	float:left;
+	height:auto;
+	margin:0px;
+	padding:5px 0px;
+	text-align:right;
+	color:#151515;
+}
+/* Footer ends */
+/* CSS FOR Homepage starts */
+/* Basic Structure for home starts */
+.homHeadPan {
+	width:980px;
+	margin:10px;
+	padding:0px;
+	float:left;
+	height:auto;
+}
+.leftPanHomHead {
+	width:720px;
+	height:608px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	float:left;
+	/*background:url(../imagesDashBoard/left-BG-Home.jpg) no-repeat left top;
+	Commented for Background experiment
+	*/
+	background:url(../imagesDashBoard/left-BG-HomeNew01.jpg) no-repeat left top;
+}
+.rightPanHomHead {
+	width:250px;
+	height:auto;
+	margin:0px 0px 0px 10px;
+	padding-bottom:10px;
+	float:left;
+	/*background:#f3f3f3;*/
+}
+.leftPanWrapper {float:left; margin-top:10px;}
+/* Basic Structure for home ends */
+.imgLeft {position:absolute; left:10px; top:10px; width:170px; height:170px; /*border:3px solid #866543;*/ border:3px solid #ccc;}
+.imgRht {position:absolute; left:536px; top:10px; width:170px; height:170px; /*border:3px solid #866543;*/ border:3px solid #ccc;} 
+/*
+.imgLeft {position:absolute; left:10px; top:10px; width:122px; height:116px; /*border:3px solid #866543;*//* border:3px solid #ccc;}*/
+/*.imgRht {position:absolute; left:584px; top:10px; width:122px; height:116px; /*border:3px solid #866543;*//*border:3px solid #ccc;}*/
+.logoPanInspire {position:absolute; z-index:7777; left:282px; top:100px; width:168px; height:168px; background:url(../imagesDashBoard/logo.png) center center no-repeat;}
+.logoPanNew {position:absolute; z-index:6666; left:281px; top:104px; /*width:168px; height:168px;*/}
+.globeTrans{position:absolute; z-index:6667; left:282px; top:104px; width:168px; height:168px; background:url(../imagesDashBoard/globe_transparency.png) center center no-repeat;}
+.leaderPan {
+	background:url(../imagesDashBoard/home-Txt-BGNew.png) center top no-repeat;
+	float:left;
+	height:auto;
+	padding:12px 31px;
+	width:657px;
+	margin:auto;
+	position:absolute;
+	top:285px;
+	/*color:#0b0e2f;
+	color:#0a2355;*/
+	color:#2a2a2a;
+	font-weight:bold;
+	text-align:center;
+}
+.leaderPan .leadText {
+	font-size:15px;
+	display:block;
+	padding:0px 20px;
+	margin-bottom:5px;
+	text-align:center;
+	/*font-weight:bold;*/
+}
+.leaderPan .leadMore {
+	font-size:14px;
+	display:block;
+	/*color:#0b0e2f;*/
+	color:#333;
+	margin-bottom:10px;
+}
+a.clickHere {
+	color:#7e343c;
+	text-decoration:none;
+	font-size:14px;
+}
+a.clickHere:hover {
+	text-decoration:underline;
+}
+.govtTitle {
+	background:url(../imagesDashBoard/ashok_chakra.png) center top no-repeat;
+	float:left;
+	height:auto;
+	padding-top:95px;
+	width:734px;
+	margin:auto;
+	color:#fff;
+	position:absolute;
+	top:420px;
+	text-align:center;
+}
+.govtTitle .smallTitle {
+	font-size:16px;
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+}
+.govtTitle .bigTitle {
+	font-size:22px;
+	line-height:26px;
+	display:block;
+	/*margin-bottom:50px;*/
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+}
+.newsPan {
+	background:#fff;
+	float:left;
+	height:auto;
+	padding:10px 0px;
+	width:720px;
+	margin:10px 0px 5px 0px;
+	color:#11153d;
+	position:absolute;
+	bottom:-40px;
+	border-bottom:1px solid #11153d;
+	text-align:center;
+}
+.newsPan .newsText {
+	font-size:14px;
+	display:block;
+	margin-bottom:5px;
+}
+.rightPanHomHead ul li {
+	list-style:none;
+	margin:0px 5px;
+}
+.rightPanHomHead ul li a {
+	text-decoration:none;
+	margin:7px 0px;
+	display:block;
+	color:#333;
+	border-bottom:1px dotted #9e9e9e;
+	font-weight:bold;
+}
+.rightPanHomHead ul li a:hover {
+	border-bottom:1px dotted #0060a6;
+}
+.accordianWrapper {
+	margin:0px;
+	float:left;
+	width:250px;
+	height:auto;
+	background:#f7f7f7;
+}
+.accodianLink {
+	color:#fff;
+	float:left;
+	width:240px;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:18px;
+	padding:5px;
+	margin-top:1px;
+	text-decoration:none;
+	/*background:#0580c4;*/
+	background:#0B3684;
+	cursor:pointer;
+}
+a.accodianHead {
+	color:#fff;
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:18px;
+	padding:5px;
+	margin-top:1px;
+	text-decoration:none;
+	background:url(../imagesDashBoard/accordian-btnMinus.jpg) no-repeat 230px 11px #0B3684;
+	/*background:url(../imagesDashBoard/accordian-btnPlus.jpg) no-repeat 230px 11px #0580c4;
+	background:url(../imagesDashBoard/accordian-btnPlus.jpg) no-repeat 230px 11px #A77B4D;*/
+}
+a.accodianHeadSelected {
+	color:#fff;
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:18px;
+	padding:5px;
+	margin-top:1px;
+	text-decoration:none;
+	background:url(../imagesDashBoard/accordian-btnMinus.jpg) no-repeat 230px 11px #0B3684;
+	/*background:url(../imagesDashBoard/accordian-btnMinus.jpg) no-repeat 230px 11px #0580c4;
+	background:url(../imagesDashBoard/accordian-btnMinus.jpg) no-repeat 230px 11px #A77B4D;*/
+}
+.optionsAll  {
+	width: 250px;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+span.newsHead {color:#0580c4; /*color:#53310d;*/ font-size:14px; display:block; margin:5px; font-weight:bold;}
+span.newsTxt {color:#282828; font-size:12px; display:block; margin:5px; padding-bottom:5px; font-weight:bold; border-bottom:1px dotted #9e9e9e;}
+/** Img FadeIn FadeOut starts **/
+#slideshow {
+    position:relative;
+    height:215px;
+}
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+#slideshow img.active {
+    z-index:10;
+    opacity:1.0;
+}
+#slideshow img.last-active {
+    z-index:9;
+}
+.picsToggle {
+    position:relative;
+    height:215px;
+}
+.picsToggle img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:1.0;
+}
+.picsToggle img.active {
+    z-index:10;
+    opacity:1.0;
+}
+.picsToggle img.last-active {
+    z-index:9;
+}
+.picsToggleA {
+    position:relative;
+    height:215px;
+}
+.picsToggleA img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:1.0;
+}
+.picsToggleA img.active {
+    z-index:10;
+    opacity:1.0;
+}
+.picsToggleA img.last-active {
+    z-index:9;
+}
+/** Img FadeIn FadeOut ends **/
+/* CSS For Homepage ends */
+/* Contact Us starts */
+.contactPan {
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:720px;
+	height:auto;
+}
+/*.contactPan ul li {
+	list-style:none;
+}*/
+h1.contactTitle {
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:30px;
+	padding:5px 0px;
+	color:#0580c4;
+	font-weight:normal;
+}
+span.contactPerName {
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:16px;
+	padding:5px 0px;
+	color:#0580c4;
+	font-weight:normal;
+}
+span.contactDetail {
+	display:block;
+	font-size:12px;
+	padding:0px 0px 10px 0px;
+	color:#333;
+	font-weight:normal;
+}
+span.contactSeparator {
+	float:left;
+	background:url(../imagesDashBoard/dashGridBdr.jpg) repeat-x left top;
+	width:720px;
+	height:2px;
+	margin-top:2px;
+	padding-bottom:10px;
+}
+span.contactHeadDept 
+{
+	display:block;
+	padding:5px;
+	background:#f1f1f1;
+	font-size:18px;
+	margin:10px 0px;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	color:#333;
+	}
+/* Contact Us ends */
+p.textOne{font-size:12px; line-height:20px; margin:20px 10px;}
+p.textTwo{font-size:12px; line-height:20px; margin:10px 10px;}
+p.textThree{font-size:12px; line-height:20px; margin-bottom:10px;}
+p.textJustify{font-size:12px; text-align:justify; line-height:20px; margin-bottom:10px;}
+p.testContent{background:url(../imagesDashBoard/testBg.jpg) left top repeat-x #b4dbf6; color:#0a4163; /*font-weight: bold;*/ font-family:Georgia, Arial; margin-top:15px; font-style:italic; display:block; padding:10px; /*background:#d9f8ff;*/ border:3px solid #b4dbf6;}
+span.testWritter {font-style:italic; font-weight:normal !important;}
+/* FAQs start */
+p.textFAQ{font-size:12px; line-height:20px; margin-bottom:10px;}
+span.faqTitle {
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:16px;
+	padding:5px 0px;
+	color:#0580c4;
+	cursor:pointer;
+	font-weight:normal;
+}
+span.faqTitle:hover {color:#63151d;}
+/* FAQs end */
+/* Slider All Registration (Registration.Master) Pages starts */
+.imgSlideWrapper {
+	padding:0px;
+	width:974px;
+	margin:auto;
+	float:left;
+	height:auto;
+	border:3px solid #ccc;
+}
+.logoInspireBig {position:absolute; z-index:7777; left:40%; top:10px; width:171px; height:153px; background:url(../imagesDashBoard/logoSlide.png) center center no-repeat;}
+#slideMaster {
+    position:relative;
+    height:173px;
+}
+#slideMaster img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+#slideMaster img.active {
+    z-index:10;
+    opacity:1.0;
+}
+#slideMaster img.last-active {
+    z-index:9;
+}
+/* Slider All Registration (Registration.Master) Pages ends */
+/* Slider All User (Inspire.Master) Pages starts */
+.imgSlideWrapperSmall {
+	padding:0px;
+	width:714px;
+	margin:auto;
+	float:left;
+	height:auto;
+	border:3px solid #ccc;
+}
+.logoInspireSmall {position:absolute; z-index:7777; left:40%; top:10px; width:171px; height:153px; background:url(../imagesDashBoard/logoSlide.png) center center no-repeat;}
+#slideMasterSmall {
+    position:relative;
+    height:173px;
+}
+#slideMasterSmall img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+#slideMasterSmall img.active {
+    z-index:10;
+    opacity:1.0;
+}
+#slideMasterSmall img.last-active {
+    z-index:9;
+}
+/* Slider All User (Inspire.Master) Pages ends */
+/* From OLD CSS starts */
+
+/* From OLD CSS ends */
+
+
+/* Changes as on 12-March-2013 */
+/* New Dashboard starts */
+span.dashTitleNew{font-family:"Segoe UI", "Trebuchet MS", Arial; font-size:15px; color:#333;}
+.dashGridPanNew {
+	width:100%;
+	float:left;
+	height:auto;
+}
+.dashGridPanInnerWrapper {
+	width:100%;
+	margin-top:10px;
+	padding:10px 0px;
+	float:left;
+	height:auto;
+	border-top:1px dotted #aaa;
+	border-bottom:1px dotted #aaa;
+}
+/*.dashGridPanInnerWrapper ul li {
+	float:left;
+	list-style:none;
+	width:192px;
+	height:auto;
+	font-size:13px;
+	color:#333;
+	text-align:left;
+}*/
+
+.dashGridPanInnerWrapper ul li {
+	background: none repeat scroll 0 0 #f8f8f8;
+    border: 2px outset #f1f1f1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    float: left;
+    font-size: 13px;
+    height: 43px;
+    list-style: none outside none;
+    margin-right: 10px;
+    padding: 5px 10px 5px 5px;
+    text-align: left;
+    width: 182px;
+    border-radius:10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.dashGridPanInnerWrapper ul li:hover {
+	border: 2px inset #0580C4;
+	/*margin-top:2px;*/
+}
+.marginRht10 {
+	margin-right:10px;
+}
+/* Grid Links for Dashboard start */
+span.dashOptA {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left top;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptB {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 5px -77px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptC {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 5px -154px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptD {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 5px -241px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptE {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 5px -319px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptF {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -398px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptG {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -473px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptH {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -541px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptI {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 10px -618px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptJ {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -693px;
+	margin:0px;
+	padding:2px 0px 8px 30px;
+	cursor:pointer;
+}
+span.dashOptK {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1170px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptL {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 5px -776px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptM {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 5px -842px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptN {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -901px;
+	margin:0px;
+	padding:2px 0px 5px 30px;
+	cursor:pointer;
+}
+span.dashOptO {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat 10px -1244px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptP {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1072px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptQ {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -982px;
+	margin:0px;
+	padding:2px 0px 11px 30px;
+	cursor:pointer;
+}
+span.dashOptR {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1333px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptS {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1688px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptT {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -2061px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptU {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -2133px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptV {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -2198px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptW {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1413px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptX {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1837px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptY {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1688px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptZ {
+	display:block;
+	background:url(../imagesDashBoard/dashboard-icons.png) no-repeat left -1688px;
+	margin:0px;
+	padding:2px 0px 10px 30px;
+	cursor:pointer;
+}
+span.dashOptA:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left top; color:#0580c4;}
+span.dashOptB:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 5px -77px; color:#0580c4;}
+span.dashOptC:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 5px -154px; color:#0580c4;}
+span.dashOptD:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 5px -241px; color:#0580c4;}
+span.dashOptE:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 5px -319px; color:#0580c4;}
+span.dashOptF:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -398px; color:#0580c4;}
+span.dashOptG:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -473px; color:#0580c4;}
+span.dashOptH:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -541px; color:#0580c4;}
+span.dashOptI:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 10px -618px; color:#0580c4;}
+span.dashOptJ:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -693px; color:#0580c4;}
+span.dashOptK:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 1px -1170px; color:#0580c4;}
+span.dashOptL:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 5px -776px; color:#0580c4;}
+span.dashOptM:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 5px -842px; color:#0580c4;}
+span.dashOptN:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -901px; color:#0580c4;}
+span.dashOptO:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat 10px -1244px; color:#0580c4;}
+span.dashOptP:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -1072px; color:#0580c4;}
+span.dashOptQ:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -982px; color:#0580c4;}
+span.dashOptR:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -1333px; color:#0580c4;}
+span.dashOptS:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -1688px; color:#0580c4;}
+span.dashOptT:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -2061px; color:#0580c4;}
+span.dashOptU:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -2133px; color:#0580c4;}
+span.dashOptV:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -2198px; color:#0580c4;}
+span.dashOptW:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -1413px; color:#0580c4;}
+span.dashOptX:hover {background:url(../imagesDashBoard/dashboard-icons_hover.png) no-repeat left -1837px; color:#0580c4;}
+/* Grid Links for Dashboard end */
+/* END of Changes as on 12-March-2013 */
+/* New Dashboard changes starts 03/06/13 by Shashank */
+.dashGridPanInnerWrapperNew {
+	width:100%;
+	margin-top:10px;
+	/* padding:10px 0px; */
+	float:left;
+	height:auto;
+		margin-right:100px;
+	
+	border-top:0px dotted #aaa;
+	border-bottom:0px dotted #aaa;
+}
+.dashGridPanInnerWrapperNew ul li {
+	float:left;
+	list-style:none;
+	width:170px;
+	height:auto;
+	font-size:13px;
+	color:#333;
+	text-align:center;
+	margin-right:10px;
+	margin-top:25px;
+	font-family:Trebuchet MS, Arial;
+}
+.dashGridPanInnerWrapperNew ul li:hover {
+	color:#0580C4;
+}
+span.dashOptAnew {
+	display:block;
+	background:url(../imagesDashBoard/UserManagement.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptAnewEdit {
+	display:block;
+	background:url(../imagesDashBoard/userediting.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.dashOptBahmas {
+	display:block;
+	background:url(../imagesDashBoard/E-bhamashah.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptBahmas:hover {background:url(../imagesDashBoard/E-bhamashah_hover.jpg) no-repeat center top;}
+
+span.dashOptEnrolementEdit {
+	display:block;
+	background:url(../imagesDashBoard/QCEditing.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptEnrolementEdit:hover {background:url(../imagesDashBoard/QCEditing_hover.jpg) no-repeat center top;}
+span.dashOptAnewMis {
+	display:block;
+	background:url(../imagesDashBoard/MISReport.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptAnewMis:hover {background:url(../imagesDashBoard/MISReport_hover.jpg) no-repeat center top;}
+span.dashOptAnew:hover {background:url(../imagesDashBoard/usermanagement_hover.jpg) no-repeat center top;}
+span.dashOptAnewEdit:hover {background:url(../imagesDashBoard/userediting_hover.jpg) no-repeat center top;}
+
+span.dashOptBnew {
+	display:block;
+	background:url(../imagesDashBoard/appNomine.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptBnew:hover {background:url(../imagesDashBoard/appNomineHover.jpg) no-repeat center top;}
+span.dashOptCnew {
+	display:block;
+	background:url(../imagesDashBoard/sanApp.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.dashOptEnrolement {
+	display:block;
+	background:url(../imagesDashBoard/Onlineenrolment.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptEnrolement:hover {background:url(../imagesDashBoard/Onlineenrolment_hover.jpg) no-repeat center top;}
+
+span.dashOptCnew:hover {background:url(../imagesDashBoard/sanAppHover.jpg) no-repeat center top;}
+span.dashOptDnew {
+	display:block;
+	background:url(../imagesDashBoard/sanAwards.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptDnew:hover {background:url(../imagesDashBoard/sanAwardsHover.jpg) no-repeat center top;}
+span.dashOptEnew {
+	display:block;
+	background:url(../imagesDashBoard/genMIS.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptEnew:hover {background:url(../imagesDashBoard/genMISHover.jpg) no-repeat center top;}
+span.dashOptFnew {
+	display:block;
+	background:url(../imagesDashBoard/sendCom.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptFnew:hover {background:url(../imagesDashBoard/sendComHover.jpg) no-repeat center top;}
+span.dashOptGnew {
+	display:block;
+	background:url(../imagesDashBoard/viewCom.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptGnew:hover {background:url(../imagesDashBoard/viewComHover.jpg) no-repeat center top;}
+span.dashOptHnew {
+	display:block;
+	background:url(../imagesDashBoard/viewSRs.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptHnew:hover {background:url(../imagesDashBoard/viewSRsHover.jpg) no-repeat center top;}
+span.dashOptInew {
+	display:block;
+	background:url(../imagesDashBoard/appNomineA.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptInew:hover {background:url(../imagesDashBoard/appNomineAhover.jpg) no-repeat center top;}
+span.dashOptJnew {
+	display:block;
+	background:url(../imagesDashBoard/fundsProposal.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptJnew:hover {background:url(../imagesDashBoard/fundsProposalHover.jpg) no-repeat center top;}
+span.dashOptKnew {
+	display:block;
+	background:url(../imagesDashBoard/studentNomination.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptKnew:hover {background:url(../imagesDashBoard/studentNominationHover.jpg) no-repeat center top;}
+span.dashOptLnew {
+	display:block;
+	background:url(../imagesDashBoard/noNomination.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptLnew:hover {background:url(../imagesDashBoard/noNominationHover.jpg) no-repeat center top;}
+span.dashOptMnew {
+	display:block;
+	background:url(../imagesDashBoard/nomStudent.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptMnew:hover {background:url(../imagesDashBoard/nomStudentHover.jpg) no-repeat center top;}
+span.dashOptNnew {
+	display:block;
+	background:url(../imagesDashBoard/feedbackA.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptNnew:hover {background:url(../imagesDashBoard/feedbackAHover.jpg) no-repeat center top;}
+span.dashOptOnew {
+	display:block;
+	background:url(../imagesDashBoard/viewSchool_Icon.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptOnew:hover {background:url(../imagesDashBoard/viewSchool_IconHover.jpg) no-repeat center top;}
+span.dashOptPnew {
+	display:block;
+	background:url(../imagesDashBoard/viewDistrict_Icon.jpg) no-repeat center top; 
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptPnew:hover {background:url(../imagesDashBoard/viewDistrict_IconHover.jpg) no-repeat center top;}
+span.dashOptPopup {
+	display:block;
+	background:url(../imagesDashBoard/familyview.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.dashOptPopup:hover {background:url(../imagesDashBoard/familyview_hover.jpg) no-repeat center top;}
+span.dashOptPds {
+	display:block;
+	background:url(../imagesDashBoard/pdscard.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.dashOptPds:hover {background:url(../imagesDashBoard/pdscard_hover.jpg) no-repeat center top;}
+
+span.dashOptPension {
+	display:block;
+	background:url(../imagesDashBoard/pension.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.dashOptPension:hover {background:url(../imagesDashBoard/pension_hover.jpg) no-repeat center top;}
+
+span.dashOptNarega {
+	display:block;
+	background:url(../imagesDashBoard/narega.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.dashOptNarega:hover {background:url(../imagesDashBoard/narega_hover.jpg) no-repeat center top;}
+
+
+span.dashOptQnew {
+	display:block;
+	background:url(../imagesDashBoard/viewState_Icon.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptQnew:hover {background:url(../imagesDashBoard/viewState_IconHover.jpg) no-repeat center top;}
+span.dashOptRnew {
+	display:block;
+	background:url(../imagesDashBoard/exhibitionFund_Icon.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptRnew:hover {background:url(../imagesDashBoard/exhibitionFund_IconHover.jpg) no-repeat center top;}
+span.dashOptSnew {
+	display:block;
+	background:url(../imagesDashBoard/fundRelease_Icon.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptSnew:hover {background:url(../imagesDashBoard/fundRelease_IconHover.jpg) no-repeat center top;}
+.notesTitle{background:url(../imagesDashBoard/notesIcon.jpg) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.archiveTitle{background:url(../imagesDashBoard/archive.png) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.fundsTitle{background:url(../imagesDashBoard/funds.jpg) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.guidelineTitle{background:url(../imagesDashBoard/guideline.jpg) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.authTitle{background:url(../imagesDashBoard/authorityIcon.jpg) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.homeTitle{background:url(../imagesDashBoard/home-icon.png) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.photoAlbmTitle{background:url(../imagesDashBoard/photoGalIcon.jpg) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.videoAlbmTitle{background:url(../imagesDashBoard/videoGalIcon.jpg) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; text-align:left; border-bottom:1px dashed #ccc;}
+.commTitle{background:url(../imagesDashBoard/comm_icon.png) no-repeat left top; padding:0px 0px 8px 40px !important; color:#333 !important; border-bottom:1px dashed #ccc;}
+.marTopBtmLft{margin:10px 0px 10px 15px;}
+ul.pList{margin:10px 0px 10px 25px; list-style: none; text-align:justify;}
+ul.galIcon{margin:20px 0px; list-style: none; float:left;}
+ul.galIcon li{float:left; width:150px; text-align:center;}
+.alignRightPad15{text-align:right; padding-right:15px;}
+
+span.dashOptTnew {
+
+                display:block;
+
+                background:url(../imagesDashBoard/newsEdit_Icon.jpg) no-repeat center top;
+
+                margin:0px;
+
+                padding:85px 0 5px 0px;
+
+                cursor:pointer;
+
+}
+
+span.dashOptTnew:hover {background:url(../imagesDashBoard/newsEdit_IconHover.jpg) no-repeat center top;}
+
+span.dashOptUnew {
+	display:block;
+	background:url(../imagesDashBoard/noNomination.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptUnew:hover {background:url(../imagesDashBoard/noNominationHover.jpg) no-repeat center top;}
+span.dashOptVnew {
+	display:block;
+	background:url(../imagesDashBoard/studentNomination.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.dashOptVnew:hover {background:url(../imagesDashBoard/studentNominationHover.jpg) no-repeat center top;}
+
+
+
+
+
+span.createinci:hover {background:url(../imagesDashBoard/Incedent_create_hover.jpg) no-repeat center top;}
+span.createinci {
+	display:block;
+	background:url(../imagesDashBoard/Incedent_create.jpg) no-repeat center top; 
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.myinci:hover {background:url(../imagesDashBoard/incident_my_hover.jpg) no-repeat center top;}
+span.myinci {
+	display:block;
+	background:url(../imagesDashBoard/incident_my.jpg) no-repeat center top; 
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.repinci:hover {background:url(../imagesDashBoard/generatepdf_hover.jpg) no-repeat center top;}
+span.repinci {
+	display:block;
+	background:url(../imagesDashBoard/generatepdf.jpg) no-repeat center top; 
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.repincireport:hover {background:url(../imagesDashBoard/report_hover.jpg) no-repeat center top;}
+span.repincireport {
+	display:block;
+	background:url(../imagesDashBoard/report.jpg) no-repeat center top; 
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.verify:hover {background:url(../imagesDashBoard/freezed_hover.jpg) no-repeat center top;}
+span.verify {
+	display:block;
+	background:url(../imagesDashBoard/freezed.jpg) no-repeat center top; 
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+span.cardmanagement {
+	display:block;
+	background:url(../imagesDashBoard/cardmanagement.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.cardmanagement:hover {background:url(../imagesDashBoard/cardmanagement_hover.jpg) no-repeat center top;}
+
+span.repincicard {
+	display:block;
+	background:url(../imagesDashBoard/cardstatus.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.repincicard:hover {background:url(../imagesDashBoard/cardstatus_hover.jpg) no-repeat center top;}
+
+span.cardrecieving {
+	display:block;
+	background:url(../imagesDashBoard/cardreceiving.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.cardrecieving:hover {background:url(../imagesDashBoard/cardreceiving_hover.jpg) no-repeat center top;}
+
+
+span.cardscaning{
+	display:block;
+	background:url(../imagesDashBoard/cardscaning.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.cardscaning:hover {background:url(../imagesDashBoard/cardscaning_hover.jpg) no-repeat center top;}
+
+
+span.carddistrution{
+	display:block;
+	background:url(../imagesDashBoard/carddistribution.jpg) no-repeat center top;
+	margin:0px;
+	padding:85px 0 5px 0px;
+	cursor:pointer;
+}
+
+span.carddistrution:hover {background:url(../imagesDashBoard/training_hover.jpg) no-repeat center top;}

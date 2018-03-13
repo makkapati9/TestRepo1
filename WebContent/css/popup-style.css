@@ -1,0 +1,68 @@
+﻿#overlay
+{
+    position: fixed;
+    height: 100%;
+    width: 100%; 
+    background-color: #fffddd;
+    opacity: 0.4;
+    z-index:77779;
+}
+
+.main
+{
+    position: fixed;
+    top: 10%;
+    left: 3%;
+    margin-left: 0px;
+    text-align:center;
+    z-index:7778;
+    /*background-color:#ccc;*/
+    /*background: url(../images/title.png) no-repeat;*/
+    /*-moz-border-radius: 15px;*/
+    /*border-radius: 15px;*/
+    border: 3px solid gray;
+    padding: 0;
+    border: 1px dashed silver;
+    background-color: #FFF;
+    border:2px solid #5D7B9D;
+}
+#dv_no_move
+{
+    padding: 2px -40px -50px 2px;
+    height: 90%;
+    width: 100%;
+}
+.close
+{
+    float: right;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.close:hover
+{
+    margin-top: 5px;
+}
+.title
+{
+    cursor: move;
+    width: 98%;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #5D7B9D;
+}
+#title_left
+{
+    padding: 4px 0 3px 9px;
+    float: left;
+    cursor: default;
+}
+
+#dv_load
+{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin: 0 auto;
+}

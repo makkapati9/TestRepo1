@@ -1,0 +1,260 @@
+﻿.gridHeader
+{
+	font-family: Tahoma;
+	font-size: 9px;
+	color: White;
+	height: 16px;
+	background-color: #85b4de;
+	
+}
+.gridText
+{	
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.gridFace
+{
+	font-family: Tahoma;
+	font-size: 11px;	
+}
+.gridFace td
+{
+	padding: 3px;	
+	/*border: solid 1px #c1c1c1;f5f5ee*/
+	border: solid 1px #ebebeb;
+	color: #000000;
+	background-color:#ffffff;
+}
+.gridFace tr:hover
+{
+	background-color:Fuchsia;		
+}
+.gridFace th
+{
+	padding-left: 5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border: solid 1px #c1c1c1;   
+	color: #717171;   
+	font-family: Tahoma;
+	font-size: 9px;
+	color: White;
+	height: 16px; 
+	background-color: #85b4de;
+	text-align:center;
+}
+.gridPager
+{
+	background-color:#EFF3FB;	
+	padding-right: 4px;
+	padding-left: 4px;
+   
+}
+.gridPager a:link
+{	
+	color: #343434;		
+    text-decoration: none;
+}
+.gridPager a:visited
+{	
+	font-weight: bolder;
+}
+.gridPager a:hover
+{	
+    font-weight:bolder;
+}
+.gridPager a:active
+{	
+    text-decoration: underline;
+    font-weight:bolder;
+    color:#0000FF
+}
+.gridFooter
+{
+	background-color:#5D7B9D;
+	color:#ffffff;	
+}
+.gridButton
+{
+	background-color:#f5f5f5;
+	color:#404040;
+	border-style:outset;	
+	border-width:2px;
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight:bolder;
+}
+.gridSelectedRow
+{
+	background-color:#4682b4;
+	color:#ffffff;	
+}
+.gridLinkButton
+{
+	text-decoration: none;
+	color: #336699;	
+	
+}
+.gridEmpty
+{
+	background-color: #f0f8ff;
+	font-weight: bold;
+	color: #660000;
+}
+
+.gridFixedHeader
+{ 
+	border-bottom-color: White;
+	background-color: White;
+	font-weight:bold; 
+	position:relative; 
+	top:expression(this.parentNode.parentNode.parentNode.scrollTop-1);
+}
+	
+.txtBox
+{
+	font-family: Century Gothic;
+	font-size: 11px;	
+}
+.button
+{
+	background:url(../Images/gradientBlue.jpg) top repeat-x;
+	height:25px;
+	font-family: Arial, Century Gothic;
+	font-size: 11px;
+	font-weight:bold;
+	color:#004040;			
+}
+.inputText
+{
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	color:#000000;
+}
+.remark
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #660000;
+	/*padding-left:2px;*/
+}
+.lblfields
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: Black;
+	text-align:right;
+}
+.lblcontrolhdr
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #cc0000;
+	text-align:left;
+}
+.reqfields
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color:  #cc0000;
+	text-align:right;
+}
+.linkbtn
+{
+	text-decoration: none;
+	text-align:center;
+}
+.legend
+{
+	color: #336699;
+}
+.back
+{
+	
+	}
+.labelPrefix
+{
+	width: 12px;
+	background-color: White;
+	font-family: Tahoma, Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Black;
+	text-align:left;
+	padding-left: 10px;
+}
+
+/* tab */
+
+.tab .ajax__tab_header 
+{
+    font-family:Tahoma;    
+    font-size:11px;
+    border-bottom:solid 3px #85b4de;
+    text-align:left;
+}
+.tab .ajax__tab_header .ajax__tab_outer 
+{
+    background-color:#ffffff;
+    margin:0px 0.16em 0px 0px;
+    padding:1px 0px 1px 0px;
+    vertical-align:bottom;
+    border:solid 1px #a3a3a3;
+    border-bottom-width:0px;
+}
+.tab .ajax__tab_header .ajax__tab_tab
+{    
+    color:#000;
+    padding:0.35em 0.75em;    
+    margin-right:0.01em;
+}
+.tab .ajax__tab_hover .ajax__tab_tab
+{
+	background-color:#85b4de;
+}
+
+.tab .ajax__tab_active .ajax__tab_tab 
+{
+    color:blue;
+}
+.tab .ajax__tab_body 
+{
+    font-family:tahoma;
+    font-size:11px;
+    padding:0.25em 0.5em;
+    background-color:#ffffff;    
+    border-top-width:0px;
+}
+
+/* treeView */
+.tree
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: Black;
+	margin-left: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;	
+	top: 0px;
+	text-align:left;
+}
+.treeNodeStyle
+{
+	font-weight: bold;
+	color: #333366;
+	padding-left:2px;
+	padding-right:2px;
+}
+.treeHoverNodeStyle
+{
+	background-color: #85b4de;
+	color: Black;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.treeSelectedNodeStyle
+{
+	background-color: #85b4de;
+	color: #FFFFFF;
+}

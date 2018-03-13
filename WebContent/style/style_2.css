@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background:url(../img/headbg.jpg) repeat-x #FFF; 
+}
+.wrap{width:900px;margin:0 auto; }
+img{border:0}
+@font-face {font-family: myFirstFont;src:url(../fonts/Kruti%20Dev%20010.ttf);src: url(../fonts/k010.eot);}
+@font-face{ font-family:title; src:url(../fonts/GILC____.TTF);}
+.title{ font-family:title; font-size:36px;color:#ee6b1e}
+.welcometext{ font-family: myFirstFont; font-size:14pt;line-height:26px}
+.welcometextHeader{ font-size:28pt;line-height:26px}
+.leftmenu1{border:1px solid #ee6b1e;margin-top:5px; border-radius:10px 10px 0 0;background:#f6e8df;width:242px;border-bottom:0}
+.leftmenu1 ul{margin:0; padding:0 30px 10px 0;}
+.leftmenu1 li{ list-style:none; list-style-image: url(../img/bullet.png); padding:8px 0 5px 0px; margin-left:30px; font-size:14px; border-bottom:1px solid #000}
+.leftmenu1 li.last{border:none}
+.leftmenu1 li a{text-decoration:none; color:#000}
+.leftmenu1 li a:hover{text-decoration:none; color:#000}
+.heading{ padding:5px 0 5px 10px;background:#ee6b1e; font-family:title;color:#fff;width:234px ; font-size:27px; height:30px}
+
+.leftmenu2{border:1px solid #ee6b1e;margin-bottom:5px; border-radius: 0 0 10px 10px;background:#f6e8df;width:242px;border-top:0}
+.leftmenu_Change{border-left: 1px solid #ee6b1e;
+    border-right: 1px solid #ee6b1e;
+    border-bottom: 1px solid #ee6b1e;
+    margin-bottom:5px; border-radius: 0 0 10px 10px;background:#f6e8df;width:242px;
+    height: 10px;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: 0;
+}
+.leftmenu2 ul{margin:0; padding:0 30px 10px 0;}
+.leftmenu2 li{ list-style:none; list-style-image: url(../img/bullet.png); padding:8px 0 5px 0px; margin-left:30px; font-size:13px;}
+.leftmenu2 li.last{border:none}
+
+.footer{height:14px;padding:10px;background:black}
+.footer .text{margin:0 auto; width:900px; font-size:12px; text-align:right;color:#FFF}
+.adminLoginPan {
+	width:340px;
+	height:auto;
+	margin:10px auto 20px auto;
+	padding:0px 17px;
+	/*float:left;*/
+	border:solid 1px #b9b9b9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../img/bg-formPan.jpg) repeat-x left top #fff;
+}
+.loginHead {	
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:20px;
+	color:#000;
+	padding-bottom:5px;
+}
+.lables {
+	display:block;
+	margin:5px 0px;
+	color:#232323;
+}
+.inputField {
+	border:solid 1px #b9b9b9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:#333333;
+	width:206px;
+	padding:3px;
+}
+.inputBtn {
+	margin:12px 20px 20px 0px;
+	vertical-align:middle;
+}
+span.contactPerName {
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:16px;
+	padding:5px 0px;
+	color:#0580c4;
+	font-weight:normal;
+}
+span.contactDetail {
+	display:block;
+	font-size:12px;
+	padding:0px 0px 10px 0px;
+	color:#333;
+	font-weight:normal;
+}

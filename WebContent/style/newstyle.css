@@ -1,0 +1,34 @@
+﻿div#copyright
+{
+    display: none;
+}
+.login-popup
+{
+    background: #333;
+    padding: 5px;
+    border: 2px solid #ddd;
+    float: left;
+    width:420px;
+    font-size: 1.2em;
+    position: fixed;
+    top: 31%;
+    left: 31%;
+    z-index: 99999;
+    
+}
+.mystyle
+{
+    font-style: none;
+    text-decoration: none;
+    color: Black;
+    cursor: pointer;
+}
+
+
+.mystyle:hover
+{
+    font-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FF9C01;
+}

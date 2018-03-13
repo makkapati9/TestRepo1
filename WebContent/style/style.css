@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+ 
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background:#f1f1f1
+	
+}
+.wrap{width:900px;margin:0 auto; background:#fff}
+ a{color:#0189d5}
+a:link{color:#0189d5}
+a:active{color:#0189d5}
+a:hover{color:#0189d5} 
+img{border:0}
+@font-face {font-family: myFirstFont;src:url(~/fonts/Kruti%20Dev%20010.ttf);}
+@font-face{ font-family:title; src:url(../fonts/GILC____.TTF);}
+.title{ font-family:title; font-size:36px;color:#ee6b1e}
+.welcometext{font-size:10pt;line-height:18px}
+.welcometextHeader{ font-size:20pt;line-height:15px}
+.leftmenu1{border:1px solid #ee6b1e;margin-top:5px; border-radius:10px 10px 0 0;background:#f6e8df;width:242px;border-bottom:0}
+.leftmenu1 ul{margin:0; padding:0 30px 10px 0;}
+.leftmenu1 li{ list-style:none; list-style-image: url(../img/bullet.png); padding:8px 0 5px 0px; margin-left:30px; font-size:14px; border-bottom:1px solid #000}
+.leftmenu1 li.last{border:none}
+.leftmenu1 li a{text-decoration:none; color:#000}
+.leftmenu1 li a:hover{text-decoration:none; color:#000}
+.heading{ padding:5px 0 5px 10px;background:#ee6b1e; font-family:title;color:#fff;width:234px ; font-size:27px; height:30px}
+
+.leftmenu2{border-left: 1px solid #ee6b1e;
+    border-right: 1px solid #ee6b1e;
+    border-bottom: 1px solid #ee6b1e;
+    margin-bottom:5px; border-radius: 0 0 10px 10px;background:#f6e8df;width:369px;
+    height: 107px;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: 0;
+}
+
+.leftmenu_Change{border-left: 1px solid #ee6b1e;
+    border-right: 1px solid #ee6b1e;
+    border-bottom: 1px solid #ee6b1e;
+    margin-bottom:5px; border-radius: 0 0 10px 10px;background:#f6e8df;width:242px;
+    height: 2px;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: 0;
+}
+
+.leftmenu2 ul{margin:0; padding:0 30px 10px 0;}
+.leftmenu2 li{ list-style:none; list-style-image: url(../img/bullet.png); padding:8px 0 5px 0px; margin-left:30px; font-size:13px;}
+.leftmenu2 li.last{border:none}
+
+.footer{height:20px;padding:10px;background:black}
+.footer .text{margin:0 auto; width:900px; font-size:12px; text-align:right;color:#FFF}
+.footer .text1{margin:0 auto; width:900px; font-size:12px; text-align:left;color:#FFF}
+
+
+.userName {
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:16px;
+	color:#fff;
+	display:block;
+	padding:5px;
+	font-weight:normal;
+	background:#0B3684;
+}
+.loginHead {	
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:20px;
+	color:#000;
+	padding-bottom:5px;
+}
+.lables {
+	display:block;
+	margin:5px 0px;
+	color:#232323;
+}
+.lables12 {
+	display:block;
+	margin:2px 0px;
+	color:#232323;
+	font-size:small;
+}
+
+.inputBtn {
+	margin:12px 20px 20px 0px;
+	vertical-align:middle;
+}
+span.contactPerName {
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:16px;
+	padding:5px 0px;
+	color:#0580c4;
+	font-weight:normal;
+}
+span.contactDetail {
+	display:block;
+	font-size:12px;
+	padding:0px 0px 10px 0px;
+	color:#333;
+	font-weight:normal;
+}
+.headerbg{background:url(../img/bg.png) repeat-x;height:110px}
+.banner{border:0px solid #000; box-shadow:0 5px 5px 0 #c1c1c1; border-radius:5px;width:945px; height:332px}
+.banner_inner{border:0px solid #000; box-shadow:0 5px 5px 0 #c1c1c1; border-radius:5px;width:945px; height:150px}
+.banner_innerNew{border:0px solid #000; box-shadow:0 5px 5px 0 #c1c1c1; border-radius:5px;width:945px;}
+.titlelogo{background:url(../img/bannerbg.png) repeat-x;}
+.titlelogo_inner{background:url(../img/bg_inner.jpg) repeat-x;}
+input.appBtns{width:80px;padding:5px;height:40px; }
+input.text{border:1px solid #c1c1c1;width:91%;height:22px;}
+select.ddl{border:1px solid #c1c1c1;width:96%;height:22px;}
+.appBtns{ background: #e1b11e;border-radius:5px; padding:5px;border:none}
+.login{font-size:16px;padding:5px 10px;border-radius:13px 13px 0 0; background: #e1b11e;}
+.centeralign{margin:10px;width:100%;text-align:center}
+sup.text{ font-size:14px; color:red}
+.headerbg{background:url(../img/bg.png) right bottom;height:25px;color:#000;}
+.form{margin:15px; border:2px solid #c1c1c1;border-radius:5px;width:auto; font-size:14px}
+.form .head{float:left;width:98.2%;padding:8px; background:url(../img/navbg.png) repeat-x; color:#fff;border-radius:5px 5px 0 0; font-weight:bold; }
+.form .remark{float:left;width:99%;padding:5px; color:red}
+.form .col{float:left;width:99%;padding:5px; color:red}
+.form .col1{float:left;width:25%;padding:5px;margin-left:5px}
+.form .col1 .text1{width:99%;padding:5px;  border:1px solid #c1c1c1;height:24px}
+.form .col1 .select{width:99%;padding:5px;height:27px}
+.form .col2 {float:left;width:30%;padding:5px;margin-left:5px}
+.form .col2 .select{width:99%;padding:5px;height:27px}
+.form .col2 .text1{width:94%;padding:5px;  border:1px solid #c1c1c1;height:15px}
+.form .col3{float:left;width:50%;padding:5px;margin-left:5px}
+.form .col3 .select{width:99%;padding:5px;height:27px}
+.form .col4{float:left;width:45%;padding:5px;margin-left:5px}
+.clear{clear:both}
+fieldset.box{border-radius:10px}
+.emptycell{height:38px}
+.displanNone{display:none}
+.visibleHidden{visibility: hidden}
+.adminLoginPan {
+	width:300px;
+	margin:10px auto 20px auto;
+	padding:0px;
+	font-size:14px;
+	border:1px solid #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+.adminLoginPan .head{float:left; width:284px;padding:8px; background:url(../img/navbg.png) repeat-x; color:#fff;border-radius:5px 5px 0 0; font-weight:bold; text-align:left; }
+.adminLoginPan .col1{float:left;width:25%;padding:5px;margin-left:5px}
+.adminLoginPan .col3 {float:left;width:50%;padding:5px;margin-left:5px}
+.adminLoginPan .col3 .text{width:99%;padding:5px;height:16px}
+.col{float:left;width:99%;padding:5px; color:red}
+.lalign{ text-align:left}
+span a.refresh_new{background:url("../img/refresh.png") no-repeat;height:16px;width:16px}
+.remark{float:left;width:99%;padding:5px; color:red}
+.form .col5{width:99%;padding:5px;}
+
+
+.loginBtn1 {background: url(../images/btn-bgLogin1.jpg) repeat-x left bottom #5085bb;font-family: "Segoe UI", "Trebuchet MS", Arial;
+	font-size: 18px;	width:114px; height: 39px;cursor: pointer;	border: 0px solid #5085bb;	color: #000;	padding: 0px 10px 5px 5px;	margin: 5px 10px 3px 0px;
+    border-radius: 5px;-webkit-border-radius:5px; -webkit-padding-start:5px;-webkit-padding-before:7px;-webkit-padding-after:7px;-webkit-padding-end:10px;}
+.nom td{font-size:14px;}
+.nom h1{font-size:26px; display:inline}
+.nom h2{font-size:22px;display:inline}
+.nom .text{width:40%;padding:5px; border:none; border:1px solid #c1c1c1;font-size:14px;font-family: Tahoma, Geneva, sans-serif;}
+.nom .text1{width:88%;padding:5px; border:none; border:1px solid #c1c1c1;font-size:14px;font-family: Tahoma, Geneva, sans-serif;}
+.nom .textE{width:40%;padding:5px; border:none; height: 22px; border:1px solid #c1c1c1;font-size:14px;font-family: Tahoma, Geneva, sans-serif; background:#e1e1e1}
+.nom .select{width:91%;padding:8px 5px;font-family:Tahoma, Geneva, sans-serif;font-size:12px;}
+.nom .select1{width:45%;padding:5px; font-family: Tahoma, Geneva, sans-serif;;font-size:12px;}
+.nom .select2{width:40%;padding:5px;font-family:Tahoma, Geneva, sans-serif;font-size:12px;}
+td.heading1{ font-size:20px; font-weight:bold}
+select option.text{font-family: Tahoma, Geneva, sans-serif;}
+
+
+.adminLoginPan .fhead{float:left; width:342px;padding:8px; background:url(../img/navbg.png) repeat-x; color:#fff;border-radius:5px 5px 0 0; font-weight:bold; text-align:left; }
+.adminLoginPan .col2 {float:left;width:37%;padding:5px;margin-left:5px}
+ 

@@ -1,0 +1,73 @@
+﻿        /*body
+        {
+            margin: 0px;
+        }
+		.studentsList
+        {
+            filter: Alpha(Opacity=40);
+            -moz-opacity: 0.4;
+            opacity: 0.4;
+            width: 100%;
+            height: 100%;
+            background-color: #999999;
+            position: absolute;
+            z-index: 77778;
+            top: 0px;
+            left: 0px;
+        }*/
+        #modalPage
+        {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+        }
+        #modalPage2
+        {
+            display: none;
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+        }
+        .modalContainer
+        {
+            position: absolute;
+            width: 600px;
+            left: 50%;
+            top: 90%;
+            z-index: 80000;
+        }
+        .modal
+        {
+            background-color: white;
+            border: solid 4px black;
+            position: relative;
+            top: -300px;
+            left: -450px;
+            z-index: 77778;
+            width: 900px;
+            /*height: 400px;
+            overflow:auto;*/
+            padding: 0px;
+        }
+        .modalTop
+        {
+            width: 500px;
+            background-color: #000099;
+            padding: 4px;
+            color: #ffffff;
+            text-align: right;
+        }
+        .modalTop a, .modalTop a:visited
+        {
+            color: #ffffff;
+        }
+        .modalBody
+        {
+            padding: 10px;
+        }
+    

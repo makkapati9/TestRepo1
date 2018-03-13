@@ -1,0 +1,10 @@
+﻿/* Grid Links for NA start */
+@media print {
+	span.gridBdr {
+		float:left;
+		background:url(../images1.1/dashGridBdrPrint.jpg) repeat-x left top;
+		width:960px;
+		height:2px;
+		margin:2px 0px 0px 0px;
+	}		
+}

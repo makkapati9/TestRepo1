@@ -1,0 +1,764 @@
+﻿/* From OLD CSS */
+/*.appBtns {background:url(../images1.1/btn_bg.gif) repeat-x left top #a3dcff; padding:3px 8px; width:auto !important; font-size:13px; border:1px solid #98cfe6; color:#010101;-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}*/
+/*.appBtnsDisabled {background:#d4edfc; padding:3px 8px; width:auto !important; font-size:11px; border:1px solid #98cfe6; color:#656565; /*-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}*/
+.appBtnsDisabled {
+	margin:12px 20px 20px 0px;
+	vertical-align:middle;
+	cursor:pointer;
+	background:/*url(../images1.1/btn_bgNew.gif) left top repeat-x */#e3e3e3;
+	border:1px solid #ccc;
+	color:#A4A4A4;
+	border-radius: 5px;
+	font-size:13px;
+}
+.appBtnsDisabled:hover {
+	border-color:#e3e3e3;
+	-webkit-box-shadow:inset 0 0px 0px rgba(0, 0, 0, 00), 0 0 0px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0px rgba(82, 168, 236, 0.6);
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0px rgba(82, 168, 236, 0.6);
+	outline:0;
+	outline:thin dotted \9;
+}
+/* Registered DA SA Details starts */
+.detailPageHead {display:block; border-bottom:1px solid #e3e3e3; margin:0px 10px 10px 10px; padding-bottom:4px; font-family:"Segoe UI","Trebuchet MS",Arial; font-size:16px; display:block; margin-left:10px; padding-bottom:0px; color:#333;}
+.registeredLeftPan {width:454px; float:left; height:auto; margin:0px 10px;}
+.registeredRightPan {width:454px; float:left; height:auto; margin:0px 10px;}
+.registeredDetailPan {width:730px; float:left; height:auto; margin:0px 10px;}
+.detailHead {display:block; font-family:"Segoe UI", "Trebuchet MS", Arial; font-size:18px; /*border-bottom:1px solid #e3e3e3;*/ color:#0189d5; text-transform:capitalize; font-weight:normal; padding-bottom:5px;}
+.detailViewA {background:#f9f9f9; padding:5px; width:100%; border:1px solid #e3e3e3; font-size:12px;}
+.width60 {width:60%; padding:1px 3px; vertical-align:top; border-bottom:1px solid #fff; font-weight:normal;}
+.width40 {width:38%; padding:1px 3px; vertical-align:top; border-bottom:1px solid #fff;}
+.width80 {width:80%; padding:1px 3px; vertical-align:top; border-bottom:1px solid #fff; font-weight:normal;}
+.width20 {width:20%; padding:1px 3px; vertical-align:top; border-bottom:1px solid #fff;}
+.detailRow{background:#f1f1f1;}
+.detailRowAlt{background:#fff;}
+.detailEditBtn {padding:10px 0px;}
+.detailBtnPanBg{background:#e9e9e9;}
+.detailBtnPad{padding:10px 0px 10px 5px; border-top:1px solid #ccc;}
+.thankuMesg {background:url(../images1.1/check-green.jpg) no-repeat left 10px; display:block; width:auto; padding:4px 0px 13px 35px; text-align:left; color:#2a6d08; font-size:16px; font-family:"Segoe UI","Trebuchet MS",Arial;}
+.appNoTitle {background:#f1f1f1; display:block; width:auto; padding:10px; margin:20px 0px 10px 0px; border:1px solid #e3e3e3; text-align:left; color:#333; font-size:16px; font-family:"Segoe UI","Trebuchet MS",Arial;}
+.appNo {color:#333; font-size:16px; font-family:"Segoe UI","Trebuchet MS",Arial; font-weight:normal;}
+/* Registered DA SA Details ends */
+.padLeft10 {padding-left:10px;}
+.detailViewRegisterSchool {background:#f9f9f9; padding:5px 0px; float:left; width:718px; border:1px solid #e3e3e3; font-size:12px;}
+.marginZero{margin:0px; padding:0px;}
+.newsEventPan {float:left; width:220px; height:auto; margin:0px; padding:0px;}
+.newsEventPan ul {border-bottom: 1px solid #7f7f7f; padding-bottom:5px; display: block; margin-bottom:10px;}
+.newsEventPan ul li {list-style:none; display:inline;}
+.newsEventPan ul li a.tabNews{background:#fff; padding:5px; color: #3C3C3C; margin-left:5px; font-weight: bold;}
+.newsEventPan ul li a.tabEvents{background:#fff; padding:5px; color: #3C3C3C; font-weight: bold;}
+.newsEventPan ul li a.tabActive {background:#7f7f7f; padding:5px; color: #fff; margin-left:5px; font-weight: bold;}
+/* Details DIV Blue Theme */
+.detailPan{width:734px; padding:5px; float:left; margin-bottom:10px; height:auto; border:3px solid #88ccf6; background:#b8e2fc; color:#333;}
+.totalNos{color: #083E5E; font-size: 16px; font-style: italic; font-weight: bold;}
+.totalNos2{color: #fff; font-size: 12px; font-style: italic; font-weight: bold; text-decoration:none !important;}
+.appType {border:1px solid #e3e3e3; padding:10px; margin-bottom:10px; width:auto;}
+.padLegend{padding:0px 5px;}
+.spacer {
+	display:block;
+	height:42px;
+	width:auto;
+}
+/* Warant Pan starts */
+.warantPan {background:url(../images/warrant_bg.jpg) no-repeat left top; width:790px; position:relative; height:280px; /*float:left;*/ margin:auto; padding:0px;}
+.warantDate{position:absolute; width:80px; top:30px; right:6px; font-weight:bold; font-size:11px;}
+.warantAcNo{position:absolute; width:150px; top:48px; right:0px; font-weight:bold; font-size:12px;}
+.warantHolderName{position:absolute; width:265px; top:75px; left:47px; font-weight:bold; font-size:12px;}
+.warantHolderFName{position:absolute; width:190px; top:75px; left:420px; font-weight:bold; font-size:12px;}
+.warantSchool{position:absolute; width:340px; top:98px; left:75px; font-weight:bold; font-size:12px;}
+/* Warant Pan ends */
+a.photoGallery 
+{
+	display:block;
+	padding:13px 10px 13px 50px;
+	margin-bottom:10px;
+	color:#752c37;
+	font-weight:bold;
+	background:url(../images/gallery_Grey.png) no-repeat left -5px #f1f1f1;
+}
+a.photoGallery:hover {
+	color:#0060A6;
+	background:url(../images/gallery.png) no-repeat left -5px #f1f1f1;
+} 
+.footerAdminPan {
+	width:970px;
+	float:left;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	color:#151515;
+}
+.adminLoginPan {
+	width:450px;
+	height:auto;
+	margin:10px auto 20px auto;
+	padding:0px 17px;
+	/*float:left;*/
+	border:solid 1px #f1f1f1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/bg-formPan.jpg) repeat-x left top #fff;
+}
+.loginHead {
+	background:url(../images/line.jpg) repeat-x left bottom;
+	display:block;
+	font-family:"Segoe UI", "Trebuchet MS", Arial;
+	font-size:20px;
+	color:#000;
+	padding-bottom:5px;
+}
+.lables {
+	display:block;
+	margin:5px 0px;
+	color:#232323;
+}
+.inputField {
+	border:solid 1px #b9b9b9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:#333333;
+	width:206px;
+	padding:7px 3px;
+}
+/*.appBtns{background:#F5F5F5; font-size:11px; cursor:pointer; font-family:Arial, Helvetica, sans-serif; font-weight:bold; border:1px solid #d0d0d0; color:#333; padding:3px 5px; margin:5px 10px 10px 0px;}
+.appBtns:hover{border:1px solid #6495ED; color:#000;}*/
+.inputBtn, .appBtns {
+	margin:12px 20px 20px 0px;
+	vertical-align:middle;
+	cursor:pointer;
+	background:url(../images1.1/btn_bgNew.gif) left top repeat-x #d3eefc;
+	border:1px solid #3c7fb1;
+	color:#14466b;
+	border-radius: 5px;
+	font-size:13px;
+}
+.inputBtn:hover, .appBtns:hover {
+	border-color:rgba(82, 168, 236, 0.8);
+	outline:0;
+    -moz-box-shadow:inset 0px 0px 7px #598fad;
+    -webkit-box-shadow:inset 0px 0px 7px #598fad;
+    box-shadow:inset 0px 0px 7px #598fad;
+	/*outline:thin dotted \9;*/
+}
+.fieldSet {border:1px solid #ccc; padding:10px 0px 10px 5px; margin-top:10px;}
+.legend{padding:0px 5px; font-size:14px;}
+.fieldSet ul li {list-style:none; margin-left:10px; float:left; width:95%;}
+a.onOffLine{color: #0060A6; text-decoration: none; font-size:13px; padding:0px 0px 3px 10px; background:url(../images/menuItem_Line.jpg) no-repeat left top; height:auto; width:auto; float:left;}
+a.onOffLine:hover{color:#0a4d71;}
+.shortDes{display:block; margin-left:10px; font-size:11px;}
+.spanHeight10{float:left; width:95%; height: 15px;}
+.alertsPan {width:740px; float:left; margin:10px 0px; padding:5px; background:#e5ebee;}
+.alertTitle{color: #304307; font-size: 12px; font-weight: bold; float:left;}
+span.onOffLineText{color: #0060A6; text-decoration: none; font-size:13px; padding:0px 0px 3px 10px; background:url(../images/menuItem_Line.jpg) no-repeat left top; height:auto; width:auto; float:left;}
+span.onOffLineText:hover{color:#0a4d71;}
+.headerSA {
+	width:970px;
+	margin:0px;
+	padding:10px 15px;
+	float:left;
+	height:auto;
+	color:#fff;
+	font-size:12px;
+	background:#2586c2;
+}
+a.navTopSA {
+	color:#fff;
+	text-decoration:none;
+}
+a.navTopSA:hover {
+	color:#b3e2ff;
+}
+a.navLangSA {
+	color:#fff;
+	text-decoration:none;
+	font-size:11px;
+}
+a.navLangSA:hover {
+	color:#b3e2ff;
+}
+a.navTopHindiSA {
+	color:#85cbf6;
+	font-size:11px;
+	text-decoration:none;
+}
+a.navTopHindiSA:hover {
+	color:#b3e2ff;
+}
+hr{color:#fff; margin:0px;}
+/* Details DIV Blue Theme ends */
+/* Details DIV Green Theme starts */
+.detailPanDA{width:734px; padding:5px; float:left; margin-bottom:10px; height:auto; border:3px solid #ACD84C; background:#CFF57F; color:#333;}
+.totalNosDA{color: #304307; font-size: 16px; font-style: italic; font-weight: bold;}
+.totalNos2DA{color: #304307; font-size: 12px; /*font-style: italic;*/ font-weight: bold;}
+.headerDA {
+	width:970px;
+	margin:0px;
+	padding:10px 15px;
+	float:left;
+	height:auto;
+	color:#fff;
+	font-size:12px;
+	background:#72A701;
+}
+a.navTopHindiDA {
+	color:#CFF57F;
+	font-size:11px;
+	text-decoration:none;
+}
+a.navTopHindiDA:hover {
+	color:#b3e2ff;
+}
+/* Details DIV Green Theme ends */
+/* Details DIV Sky Theme starts */
+.detailPanNA{width:964px; padding:5px; float:left; margin-bottom:10px; height:auto; border:3px solid #a3b8c3; background:#e5ebee; color:#333;}
+.totalNosNA{color: #304307; font-size: 16px; font-style: italic; font-weight: bold;}
+.totalNos2NA{color: #304307; font-size: 12px; font-style: italic; font-weight: bold;}
+.headerNA {
+	width:970px;
+	margin:0px;
+	padding:10px 15px;
+	float:left;
+	height:auto;
+	color:#fff;
+	font-size:12px;
+	background:#59a0c3;
+}
+a.navTopHindiNA {
+	color:#176185;
+	font-size:11px;
+	text-decoration:none;
+}
+a.navTopHindiNA:hover {
+	color:#b3e2ff;
+}
+/* Details DIV Sky Theme ends */
+.formFieldsetPan {
+	width: 980px;
+	margin-top:10px;
+	padding: 10px 0px;
+	height: auto;
+	float: left;
+}
+.formFieldsetPan fieldset {
+	padding: 0px 5px;
+	border: 1px solid #CCC;
+	margin:0px 10px;
+}
+.formFieldsetPan fieldset legend {
+	font-size: 14px;
+	color: #333;
+	padding: 0px 5px;
+}
+.formFieldsetPanSmall {
+	width: 720px;
+	margin-top:10px;
+	padding: 10px 0px;
+	height: auto;
+	float: left;
+}
+.formFieldsetPanSmall fieldset {
+	padding: 0px 5px;
+	border: 1px solid #CCC;
+	margin:0px;
+}
+.formFieldsetPanSmall fieldset legend {
+	font-size: 14px;
+	color: #333;
+	padding: 0px 5px;
+}
+.fieldInner {
+	width: 100%;
+	padding: 10px 0px;
+	float: left;
+	height: auto;
+}
+.fieldInnerWrapper {
+	width: 960px;
+	padding: 10px;
+	float: left;
+	height: auto;
+}
+a.formItems {
+	background: url(../images1.1/icon-item.jpg) left 2px no-repeat;
+	padding-left: 12px;
+	color: #17617f;
+	font-size: 14px;
+	line-height:20px;
+	text-decoration: none;
+}
+a.formItems:hover {
+	text-decoration: underline;
+}
+a.clickable {
+	/*background: url(../images1.1/icon-item.jpg) left 2px no-repeat;*/
+	padding-left: 12px;
+	color: #17617f;
+	font-size: 14px;
+	text-decoration: none;
+}
+a.clickable:hover {
+	text-decoration: underline;
+}
+a.saNav {
+	/*padding-left: 12px;*/
+	color: #7e343c;
+	font-size: 12px;
+	text-decoration: none;
+}
+a.saNav:hover {
+	text-decoration: underline;
+}
+.saNavPan {position:absolute; right:0px; top:0px; margin-right:0px; background:#fff; padding:5px;}
+p.formText {
+	display: block;
+	padding: 0px 0px 10px 12px;
+}
+.gridHeadLable{font-family:"Segoe UI","Trebuchet MS",Arial; font-size:18px; display:block; /*Can uncommented on 03-06-13 margin-left:10px;*/ padding-bottom:0px; color:#0189d5; font-weight:bold;}
+.gridHeadLable14{font-family:"Segoe UI","Trebuchet MS",Arial; font-size:14px; display:block; /*Can uncommented on 03-06-13 margin-left:10px;*/ padding-bottom:5px; color:#333; font-weight:normal;}
+
+.gridHeadLableOne{font-family:"Segoe UI","Trebuchet MS",Arial; font-size:24px; display:block; /*margin:10px;*/ padding-bottom:10px; color:#23789b; font-weight:normal;}
+.gridHeadLableThree{font-family:"Segoe UI","Trebuchet MS",Arial; font-size:18px; display:block; margin:10px; padding-bottom:0px; color:#23789b; font-weight:normal;}
+.gridHeadLableTwo{color:#333; font-size:13px; display:block; margin:0px 0px 10px 0px; padding-bottom:3px; color:#125374;}
+.gridTabAll{border:0px solid #81BCE4; /*background:#81BCE4;*/ width:100% !important; padding:2px; color:#333; font-weight:bold;}
+.gridAll{border:0px; width:100% !important;}
+.gridAll td{padding:4px 0px 4px 3px; vertical-align:top;}
+.gridHead {/*background:url(../images/gridHead_bg.gif) repeat-x left top #f0f9ff; background:#636363;*/ background:#1F2561; padding:3px; border:0px; color:#fff;}
+.gridHeadRed {/*background:url(../images/gridHead_bg.gif) repeat-x left top #f0f9ff; background:#636363;*/ background:#F241DD; padding:3px; border:0px; color:#fff;}
+.gridHeadTotal {background:#00CC66; padding:3px; border:0px; color:#fff;}
+.gridHead th{padding:4px 0px 4px 3px; vertical-align:top;}
+.gridRow{background:#fff; padding:3px; color:#333333; /*line-height:28px;*/}
+.gridRow:hover{background:#ebf8ff;}
+.gridAltRow {background:#f1f1f1; padding:3px; color:#333333; /*line-height:28px;*/}
+.gridAltRow:hover {background:#ebf8ff;}
+.gridTD{/*background:#fff;*/ padding:3px;}
+.gridTD:hover{background:#fff;}
+/* All anchor starts */
+a.clickHere {
+	color:#7e343c;
+	text-decoration:none;
+	font-size:12px;
+}
+a.clickHere:hover {
+	text-decoration:underline;
+}
+.clickItalic {
+	color:#0054b4;
+	/*color:#fff;*/
+	font-style:italic;
+	text-decoration:none;
+	font-size:12px;
+}
+a.forgot:hover {
+	text-decoration:underline;
+}
+a.forgot {
+	color:#0054b4;
+	/*color:#fff;*/
+	text-decoration:none;
+	font-size:11px;
+}
+a.forgot:hover {
+	text-decoration:underline;
+}
+a.logout {
+	/*color:#0054b4;*/
+	color:#fff;
+	text-decoration:none;
+	font-size:11px;
+}
+a.logout:hover {
+	text-decoration:underline;
+}
+a.categories {
+	color:#0060a6;
+	line-height:24px;
+	text-decoration:none;
+}
+a.categories:hover {
+	color:#043355;
+}
+a.newsHead {
+	color:#0060a6;
+	line-height:24px;
+	margin-top:10px;
+	display:block;
+	text-decoration:none;
+}
+a.newsHead:hover {
+	color:#043355;
+}
+a.copyright {
+	color:#777777;
+	text-decoration:none;
+}
+a.copyright:hover {
+	color:#151515;
+}
+a.clickHereInner {
+	color:#23789B;
+	text-decoration:undeline;
+	font-style:italic;
+	font-size:14px;
+	font-weight:bold;
+}
+a.clickHereInner:hover {
+	color:#000;
+}
+a.clickHereInnerSmall {
+	color:#23789B;
+	text-decoration:undeline;
+	font-size:12px;
+	font-weight:bold;
+}
+a.clickHereInnerSmall:hover {
+	color:#000;
+}
+a.downloadEdit{color:#0054B4; font-weight:bold; font-size:12px; text-decoration:none;}
+a.downloadEdit:hover{text-decoration:underline;}
+a.unapproved {
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/pending.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+}
+a.unapproved:hover {
+	text-decoration:underline;
+}
+a.approved {
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/approve.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+}
+a.rejected:hover {
+	text-decoration:underline;
+}
+a.edit {
+	color:#FFF;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/edit_icon.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+	float:right;
+	margin-right:5px;
+}
+a.edit:hover {
+	text-decoration:underline;
+}
+a.rejected {
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/reject.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+}
+a.approved:hover {
+	text-decoration:underline;
+}
+a.allSt {
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/list_st.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+}
+a.allSt:hover {
+	text-decoration:underline;
+}
+a.goBck {
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/arrow_back.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+}
+a.refresh {
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/refresh.jpg) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:5px;
+	vertical-align:middle;
+}
+a.goBck:hover {
+	text-decoration:underline;
+}
+.right{float:right;}
+a.addNew
+{
+	color:#0054b4;
+	text-decoration:none;
+	font-size:12px;
+	background:url(../images1.1/add-icon.png) no-repeat left bottom;
+	padding-left:20px;
+	padding-top:2px;
+}
+a.addNew:hover
+{
+	text-decoration:underline;
+}
+/* All anchor ends */
+.appUnapp{float: left; height: auto; /*margin: 10px 0px; commented on 03-06-13 by Shashank*/ margin: 10px 0px; padding: 0; text-align:right; width: 970px;}
+/* Input Fields New starts */
+.mandatoryField {border-top:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-left:2px solid #b60909;}
+.mandatoryField:hover {border-top:1px solid #0189d5; border-right:1px solid #aeaeae; border-bottom:1px solid #aeaeae; border-left:2px solid #b60909;}
+input, textarea, select {
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition:border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition:border linear 0.2s, box-shadow linear 0.2s;
+	-ms-transition:border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition:border linear 0.2s, box-shadow linear 0.2s;
+	transition:border linear 0.2s, box-shadow linear 0.2s;
+	border:1px solid #e3e3e3;
+	padding:5px;
+	font-size:12px;
+}
+input:hover {
+	border-color:rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	outline:0;
+	outline:thin dotted \9;
+}
+input:focus, textarea:focus {
+	border-color:rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	outline:0;
+	outline:thin dotted \9;
+}
+.viewImgBtn {
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+	border:0px !important;
+	padding:5px;
+	font-size:11px;
+}
+/* Input Fields New ends */
+/* For Image Gallery start */
+.galImg { border:3px solid #e3e3e3 !important;}
+.galImg:hover { border:3px solid #258fcc !important;}
+/* For Image Gallery end */
+.bdrAll {border:1px solid #ccc;}
+.bdrTop {border-top:1px solid #ccc;}
+.bdrRight {border-right:1px solid #ccc;}
+.bdrBottom {border-bottom:1px solid #ccc;}
+.bdrLeft {border-left:1px solid #ccc;}
+/* State Icons start */
+.tdState {border:3px solid #ccc;}
+.tdState:hover {border:3px solid #0580c4;}
+a.andaman_and_nicobar_islands {background:url(../states/andaman.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.andaman_and_nicobar_islands:hover {background:url(../states/andaman_hover.jpg) no-repeat left top;}
+a.andhra_pradesh {background:url(../states/andhra.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.andhra_pradesh:hover {background:url(../states/andhra_hover.jpg) no-repeat left top;}
+a.arunanchal_pradesh {background:url(../states/arunachal.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.arunanchal_pradesh:hover {background:url(../states/arunachal_hover.jpg) no-repeat left top;}
+a.assam {background:url(../states/assam.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.assam:hover {background:url(../states/assam_hover.jpg) no-repeat left top;}
+a.bihar {background:url(../states/bihar.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.bihar:hover {background:url(../states/bihar_hover.jpg) no-repeat left top;}
+a.chandigarh {background:url(../states/chandigarh.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.chandigarh:hover {background:url(../states/chandigarh_hover.jpg) no-repeat left top;}
+a.chhattisgarh {background:url(../states/chattisgarh.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.chhattisgarh:hover {background:url(../states/chattisgarh_hover.jpg) no-repeat left top;}
+a.dadra_and_nagar_haveli {background:url(../states/dadar_nagar_haveli.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.dadra_and_nagar_haveli:hover {background:url(../states/dadar_nagar_haveli_hover.jpg) no-repeat left top;}
+a.daman_diu {background:url(../states/daman_diu.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.daman_diu:hover {background:url(../states/daman_diu_hover.jpg) no-repeat left top;}
+a.delhi {background:url(../states/delhi.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.delhi:hover {background:url(../states/delhi_hover.jpg) no-repeat left top;}
+a.goa {background:url(../states/goa.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.goa:hover {background:url(../states/goa_hover.jpg) no-repeat left top;}
+a.gujarat {background:url(../states/gujrat.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.gujarat:hover {background:url(../states/gujrat_hover.jpg) no-repeat left top;}
+a.haryana {background:url(../states/haryana.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.haryana:hover {background:url(../states/haryana_hover.jpg) no-repeat left top;}
+a.himachal_pradesh {background:url(../states/hp.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.himachal_pradesh:hover {background:url(../states/hp_hover.jpg) no-repeat left top;}
+a.jammu_and_kashmir {background:url(../states/jk.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.jammu_and_kashmir:hover {background:url(../states/jk_hover.jpg) no-repeat left top;}
+a.jharkhand {background:url(../states/jharkhand.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.jharkhand:hover {background:url(../states/jharkhand_hover.jpg) no-repeat left top;}
+a.karnataka {background:url(../states/karnataka.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.karnataka:hover {background:url(../states/karnataka_hover.jpg) no-repeat left top;}
+a.kerala {background:url(../states/kerela.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.kerala:hover {background:url(../states/kerela_hover.jpg) no-repeat left top;}
+a.lakshwdeep {background:url(../states/lakshwdeep.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.lakshwdeep:hover {background:url(../states/lakshwdeep_hover.jpg) no-repeat left top;}
+a.madhya_pradesh {background:url(../states/mp.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.madhya_pradesh:hover {background:url(../states/mp_hover.jpg) no-repeat left top;}
+a.maharashtra {background:url(../states/maharashtra.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.maharashtra:hover {background:url(../states/maharashtra_hover.jpg) no-repeat left top;}
+a.manipur {background:url(../states/manipur.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.manipur:hover {background:url(../states/manipur_hover.jpg) no-repeat left top;}
+a.meghalaya {background:url(../states/meghalaya.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.meghalaya:hover {background:url(../states/meghalaya_hover.jpg) no-repeat left top;}
+a.mizoram {background:url(../states/mizoram.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.mizoram:hover {background:url(../states/mizoram_hover.jpg) no-repeat left top;}
+a.nagaland {background:url(../states/nagaland.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.nagaland:hover {background:url(../states/nagaland_hover.jpg) no-repeat left top;}
+a.odisha {background:url(../states/orissa.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.odisha:hover {background:url(../states/orissa_hover.jpg) no-repeat left top;}
+a.puducherry {background:url(../states/pondicherry.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.puducherry:hover {background:url(../states/pondicherry_hover.jpg) no-repeat left top;}
+a.punjab {background:url(../states/punjab.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.punjab:hover {background:url(../states/punjab_hover.jpg) no-repeat left top;}
+a.rajasthan {background:url(../states/rajasthan.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.rajasthan:hover {background:url(../states/rajasthan_hover.jpg) no-repeat left top;}
+a.sikkim {background:url(../states/sikkim.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.sikkim:hover {background:url(../states/sikkim_hover.jpg) no-repeat left top;}
+a.tamil_nadu {background:url(../states/tn.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.tamil_nadu:hover {background:url(../states/tn_hover.jpg) no-repeat left top;}
+a.tripura {background:url(../states/tripura.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.tripura:hover {background:url(../states/tripura_hover.jpg) no-repeat left top;}
+a.uttar_pradesh {background:url(../states/up.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.uttar_pradesh:hover {background:url(../states/up_hover.jpg) no-repeat left top;}
+a.uttarakhand {background:url(../states/uttaranchal.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.uttarakhand:hover {background:url(../states/uttaranchal_hover.jpg) no-repeat left top;}
+a.west_bengal {background:url(../states/wb.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.west_bengal:hover {background:url(../states/wb_hover.jpg) no-repeat left top;}
+/* State Icons end */
+/*Other Icons */
+a.sainik_schools_society {background:url(../states/sss.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.sainik_schools_society:hover {background:url(../states/sss_hover.jpg) no-repeat left top;}
+a.navodaya_vidyalaya_samiti {background:url(../states/NVS.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.navodaya_vidyalaya_samiti:hover {background:url(../states/NVS_hover.jpg) no-repeat left top;}
+a.kendriya_vidyalaya_sangathan {background:url(../states/kvs.jpg) no-repeat left top; display:block; width:90px; padding-top:95px;}
+a.kendriya_vidyalaya_sangathan:hover {background:url(../states/kvs_hover.jpg) no-repeat left top;}
+/*Other Icons end */
+.bultItems {
+	background: url(../images1.1/icon-item.jpg) left 6px no-repeat;
+	padding-left: 12px;
+	color: #333;
+	font-size: 12px;
+	line-height:20px;
+	text-decoration: none;
+}
+/* mail start */
+.unreadMail {font-weight:bold;}
+.alignLeft{text-align:left;}
+.alignRight{text-align:right;}
+.dateTime{text-align:right; padding-right:5px !important;}
+ul.mailIconPan {list-style: none; float:left; margin:10px 0px;}
+ul.mailIconPan li {float: left; margin-right:5px; background:url(../images1.1/mail_icon_bg.jpg) repeat-x left bottom #fafafa; cursor:pointer; border:1px solid #e0e0e0; padding:5px 10px 3px 10px; min-height:19px;}
+ul.mailIconPan li:hover {border:1px solid #bdbdbd;}
+.deleteBtn{background:url(../images1.1/delete_mail.png) no-repeat right top #fafafa; border:0px !important; text-indent:-3333px; cursor:pointer; box-shadow:none !important; float:left; width:16px; height:15px; color:#333;}
+.deleteBtn:hover{background:url(../images1.1/delete_mail.png) no-repeat right bottom #fafafa;}
+.mailRefresh{background:url(../images1.1/refresh.png) repeat-x left top; border:0px !important; text-indent:-3333px; cursor:pointer; box-shadow:none !important; float:left; width:16px; height:15px; cursor:pointer;}
+.mailRefresh:hover{background:url(../images1.1/refresh.png) repeat-x left bottom;}
+.replyBtn{background:url(../images1.1/reply_mail.png) no-repeat right top #fafafa; float:left; width:15px; height:16px; border:0px !important; text-indent:-3333px; cursor:pointer; box-shadow:none !important; color:#333;}
+.replyBtn:hover{background:url(../images1.1/reply_mail.png) no-repeat right bottom #fafafa;}
+.composeBtn{color:#333; border:0px !important; padding:0px !important; background:none !important; box-shadow:none !important;}
+.composeBtn:hover{color:#0580c4;}
+.mailItems{float:left; border:1px solid #ccc; width:100%;}
+.mailCompose{float:left; /*border:1px solid #ccc;*/ width:100%; margin-bottom:10px; display:none;}
+/*.composeBtn:hover{background:url(../images1.1/reply_mail.png) no-repeat right bottom #fafafa;}*/
+/* mail ends */
+/* Select All starts */
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 12px; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 11px;; }
+.ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff; color: #222222; }
+.ui-widget-content a { color: #222222; }
+.ui-widget-header { border: 1px solid #aaaaaa; background: #cccccc; color: #222222; font-weight: bold; }
+.ui-widget-header a { color: #222222; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border-top: 0px; border-right: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; border-left: 1px solid #d3d3d3; cursor:pointer; /*background: #e6e6e6 url(images1.1/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;*/ padding:5px; font-weight: normal; color: #555555; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { /*border: 1px solid #999999; background: #dadada url(images1.1/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;*/ font-weight: normal; color: #212121; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #212121; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa; /*background: #ffffff url(images1.1/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;*/ font-weight: normal; color: #212121; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; text-decoration: none; }
+.ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #fcefa1; background: #fbf9ee; color: #363636; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #fef1ec; color: #cd0a0a; }
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #cd0a0a; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #cd0a0a; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* Icons
+
+
+
+----------------------------------*/
+
+
+.readonlyText
+{
+	text-align:right; color:#0000FF; background-color:#DEE5E9;
+}
+
+.numericText
+{
+	text-align:right; color:#006600;
+}
+
+.bdrBotm{border-bottom:1px solid #ccc; /*margin-left:10px !important;*/}
+.bdrBotm ul {list-style:none; float:right;}
+.bdrBotm ul li {float:left; padding:7px;}
+.bdrBotm ul li.active {margin:0px 5px -1.5px 5px; float:left; padding:7px; background:#fff; border-top:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #fff; border-left:1px solid #ccc;}
+.bdrBotm ul li.active a{color:#0580C4;}
+.downloadMe{background:url(../images1.1/download_icon.png) no-repeat left 3px; padding-left:16px;}
+.legendPan{float:left; width:99%; margin:5px 0px; padding:0px 10px;}
+.legendPan ul li{list-style:none; float:left; margin-right:20px;}
+.approveLegend{background:url(../images1.1/approve.png) no-repeat left top; padding:0px 0px 5px 20px;}
+.inProgressLegend{background:url(../images1.1/pending.png) no-repeat left top; padding:0px 0px 5px 20px;}
+.rejectLegend{background:url(../images1.1/reject.png) no-repeat left top; padding:0px 0px 5px 20px;}
+.paginationGal{float:left; width:100%; margin:0px; padding:0px; text-align:right; color:#ccc;}
+.paginationGal a{margin:0px 5px; font-size:14px;}
+a.pageActive{color:#0189d5 !important; text-decoration:underline; font-size:14px;}
+a.pageDisable{color:#ccc; text-decoration:none; cursor:default;}
+.size14 {font-size:14px;}
+.size14Bold {font-size:11px; font-weight:bold; background:#f1f1f1; border:1px solid #e9e9e9; /*color:#0189D5;*/ color:#333; display: block; font-weight: bold; padding:5px; width:46px;}
+.clickExcelBtn{background:url(../images1.1/btn_bg.gif) repeat-x left top #a9deff; float:left; font-size:11px; cursor:pointer; font-family:Arial, Helvetica, sans-serif; font-weight:bold; border:1px solid #459ecf; color:#1a5779; padding:5px 8px; margin:5px 10px 10px 0px;}
+.clickExcelBtn:hover{border:1px solid #124460;}
+.clickExcelBtnBg{background:url(../images1.1/excel-icon.gif) no-repeat left top; padding:0px 0px 7px 28px;}
+.browsePan{float:left; position:relative; overflow:hidden; width:110px; height:auto; margin:6px 0px;}
+ul.btnBrowse li{float:left; list-style:none;}
+.browseBtnUI{background:url(../images1.1/browseBtn.jpg) no-repeat left top; cursor:pointer; display:block; height:41px; padding:0px; margin:0px;}
+.browseBtnUI:hover{background:url(../images1.1/browseBtnHover.jpg) no-repeat left top; }
+.browseBtn {opacity:0; filter: alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; position:relative; z-index:555; width:90px; height:auto; margin-top:0px;}
+.clickBrowse{background:url(../images1.1/btn_bg.gif) repeat-x left top #a9deff; position:absolute; top:0; left:0; z-index:444; font-size:11px; font-weight:bold; border:1px solid #459ecf; color:#1a5779; padding:3px 8px;}
+.clickBrowse:hover{border:1px solid #124460;}
+.fileName{font-weight:bold; display:block; margin:8px 20px 0px 0px; color:#0189D5;}
+.bultItemsLink {
+	background: url(../images1.1/link-icon.png) left 6px no-repeat;
+	padding-left: 18px;
+	color: #333;
+	font-size: 12px;
+	line-height:20px;
+	text-decoration: none;
+}
+.widthFix{width:919px !important;}
+.widthFixSmall{width:915px !important;}
+.fieldSetSmall{width:300px; float:left;}
+a.selectMailBox{color:#333; background:#e3e3e3; font-size:13px; text-align:center; padding:5px; margin-bottom:1px;}
+a.selectMailBox:hover{background:#cbcbcb;}
+a.outBox{color:#909090;}
+.goBackPan{float:right; width:auto;}
+
+/*Added By Rahul for Loding Please wait window*/
