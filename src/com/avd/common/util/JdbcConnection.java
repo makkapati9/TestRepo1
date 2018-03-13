@@ -65,7 +65,7 @@ public class JdbcConnection {
 			 * url="jdbc:mysql://www.db4free.net:3306/mdmdb";
 			 * user="mdmdb1234manish"; pass="123456";
 			 */
-			System.out.println("This is jdbc file");
+			System.out.println("This is jdbc file ");
 			url="jdbc:mysql://localhost/test";
 		 	user="root"; 
 			pass="Advoadvo";
