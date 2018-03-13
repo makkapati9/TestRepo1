@@ -66,6 +66,7 @@ public class JdbcConnection {
 			 * user="mdmdb1234manish"; pass="123456";
 			 */
 			System.out.println(" This is jdbc file ");
+			System.out.println(" This is jdbc file manish commited ");
 			url="jdbc:mysql://localhost/test";
 		 	user="root"; 
 			pass="Advoadvo";
